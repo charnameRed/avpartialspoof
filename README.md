@@ -1,0 +1,2 @@
+# avpartialspoof
+基于FakeAVCeleb的部分伪造数据集制作
