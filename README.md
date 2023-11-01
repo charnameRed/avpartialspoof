@@ -1,2 +1,15 @@
 # avpartialspoof
-基于FakeAVCeleb的部分伪造数据集制作
+The Multi-modal Partialy-Spoofed dataset based on [FakeAVCeleb](https://github.com/DASH-Lab/FakeAVCeleb)
+```
+@misc{khalid2021fakeavceleb,
+      title={FakeAVCeleb: A Novel Audio-Video Multimodal Deepfake Dataset}, 
+      author={Hasam Khalid and Shahroz Tariq and Simon S. Woo},
+      year={2021},
+      eprint={2108.05080},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
+
+## Our code is under optimizing, to be released soon 
