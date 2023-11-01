@@ -12,4 +12,4 @@ The Multi-modal Partialy-Spoofed dataset based on [FakeAVCeleb](https://github.c
 ```
 
 
-## Our code is under optimizing, to be released soon 
+## Our code is being optimized, to be released soon 
