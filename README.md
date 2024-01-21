@@ -36,7 +36,3 @@ Author:郑盛有, 陈雁翔, 赵祖兴, 刘海洋.
 DOI:10. 11772/j.issn.1001-9081.2023101506. 
 
 Further details will be added after publication.
-
-## License
-
-Code is released under the GNU GPL 3.0 License.
