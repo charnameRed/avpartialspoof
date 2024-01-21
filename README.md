@@ -27,7 +27,9 @@ The final ratio fake will be higher than the `RATIO_FAKE`, which can be check by
 ## Citation
 
 *多模态部分伪造数据集的构建与基准检测* (*Construction and benchmark of multimodal partial forgery
-deepfake dataset*). Paper accepted. 
+deepfake dataset*).
+
+Paper accepted. 
 
 Author:郑盛有, 陈雁翔, 赵祖兴, 刘海洋.
 
