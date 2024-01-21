@@ -1,18 +1,19 @@
 PATH_DATA_ORI = 'data/original'
-DIR_OUTPUT = f'data/processed/FakeAVCeleb'
+PATH_OUTPUT = 'data/processed'
 NUM_FAKE = 6
+RATIO_FAKE = 0.53
 
 from tools import *
 import os,random,tqdm
 
 list_ratio = [round(0.01*i,2) for i in range(5,100,5)]
 num_fake = NUM_FAKE
-ratio_fake = 0.53
+ratio_fake = RATIO_FAKE
 
 # for ratio_fake in tqdm.tqdm(list_ratio,position=0):
 for ratio_fake in tqdm.tqdm([0.53],position=0,leave=True):
 
-    dir_out = DIR_OUTPUT+f'_r{ratio_fake:.2f}'
+    dir_out = DIR_OUTPUT+f'PartialFAVCeleb_r{ratio_fake:.2f}'
 
     shutil.rmtree(dir_out,ignore_errors=True)
 
