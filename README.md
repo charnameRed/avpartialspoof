@@ -39,4 +39,4 @@ Further details will be added after publication.
 
 ## License
 
-Code is released under the MIT license.
+Code is released under the GNU GENERAL PUBLIC LICENSE.
