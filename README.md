@@ -1,10 +1,12 @@
 # PartialFAVCeleb
 
-The Multi-modal Partialy-Spoofed dataset based on [FakeAVCeleb-V1.2](https://github.com/DASH-Lab/FakeAVCeleb)
+基于 [FakeAVCeleb-V1.2](https://github.com/DASH-Lab/FakeAVCeleb) 建立的音视频多模态部分伪造数据集.
 
-Sample under `data/processed` folder.
+数据样例参考 `data/processed` 文件夹.
 
-## Environments
+数据集仅提供生成代码, 具体生成所用数据请从[FakeAVCeleb](https://github.com/DASH-Lab/FakeAVCeleb)处下载.
+
+## 运行环境
 
 - python=3.10
 - tqdm=4.65.0
@@ -14,25 +16,25 @@ Sample under `data/processed` folder.
 - soundfile=0.12.1
 - librosa==0.10
 
-## Usage
+## 生成方法
 
-In `datasetGenerate.py`, set the `PATH_DATA_ORI` as the original FakeAVCeleb path, and the `PATH_OUTPUT` as the required output path.
+在 `datasetGenerate.py`文件中, 修改`PATH_DATA_ORI`和`PATH_OUTPUT`, 设置输入数据位置和输出数据位置, 可参考`data`文件夹下内容.
 
-The fake ratio(between 0 and 1) and the required fake video number can be adjust by editing `NUM_FAKE` and `RATIO_FAKE`.
+修改`NUM_FAKE`和`RATIO_FAKE`两项参数,设置伪造数据片段数和伪造比例.
 
-Run `datasetGenerate.py`.
+运行`datasetGenerate.py`.
 
-The final ratio fake will be higher than the `RATIO_FAKE`, which can be check by the text file named `counted_ratio_<real fake ratio>.txt`.
+生成数据实际伪造比例会略高于`RATIO_FAKE`, 以`counted_ratio_<real fake ratio>.txt`文件名中伪造比例为准.
 
-## Citation
+## 引用信息
 
-*多模态部分伪造数据集的构建与基准检测* (*Construction and benchmark of multimodal partial forgery
-deepfake dataset*).
+《多模态部分伪造数据集的构建与基准检测》(《Construction and benchmark of multimodal partial forgery
+deepfake dataset》).
 
-Paper accepted. 
+论文已录用, 尚未发表.
 
-Author:郑盛有, 陈雁翔, 赵祖兴, 刘海洋.
+作者:郑盛有, 陈雁翔, 赵祖兴, 刘海洋.
 
 DOI:10. 11772/j.issn.1001-9081.2023101506. 
 
-Further details will be added after publication.
+其他具体信息待发表后更新.
