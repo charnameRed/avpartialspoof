@@ -2,7 +2,7 @@
 
 The Multi-modal Partialy-Spoofed dataset based on [FakeAVCeleb-V1.2](https://github.com/DASH-Lab/FakeAVCeleb)
 
-Sample in under `data/processed` folder.
+Sample under `data/processed` folder.
 
 ## Environments
 
