@@ -13,7 +13,7 @@ ratio_fake = RATIO_FAKE
 # for ratio_fake in tqdm.tqdm(list_ratio,position=0):
 for ratio_fake in tqdm.tqdm([0.53],position=0,leave=True):
 
-    dir_out = DIR_OUTPUT+f'PartialFAVCeleb_r{ratio_fake:.2f}'
+    dir_out = PATH_OUTPUT+f'PartialFAVCeleb_r{ratio_fake:.2f}'
 
     shutil.rmtree(dir_out,ignore_errors=True)
 
