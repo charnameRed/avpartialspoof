@@ -1,0 +1,20 @@
+{
+    "audio": [
+        [
+            3,
+            19
+        ],
+        [
+            50,
+            91
+        ]
+    ],
+    "video": [],
+    "both": [],
+    "material": {
+        "fr": "data/original/RealVideo-FakeAudio/Caucasian-American/men/id00018/00181_fake.mp4",
+        "rf": "data/original/FakeVideo-RealAudio/Caucasian-American/men/id00018/00181_id00169__V1xAwwG29U.mp4",
+        "ff": "data/original/FakeVideo-FakeAudio/Caucasian-American/men/id00018/00181_id01201_Q8XWfmNiWYA_faceswap_id00945_wavtolip.mp4",
+        "rr": "data/original/RealVideo-RealAudio/Caucasian-American/men/id00018/00181.mp4"
+    }
+}

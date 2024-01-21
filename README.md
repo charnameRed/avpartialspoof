@@ -1,19 +1,10 @@
-# avpartialspoof
+# PartialFAVCeleb
 
 The Multi-modal Partialy-Spoofed dataset based on [FakeAVCeleb-V1.2](https://github.com/DASH-Lab/FakeAVCeleb)
 
-``` bibtex
-@misc{khalid2021fakeavceleb,
-      title={FakeAVCeleb: A Novel Audio-Video Multimodal Deepfake Dataset}, 
-      author={Hasam Khalid and Shahroz Tariq and Simon S. Woo},
-      year={2021},
-      eprint={2108.05080},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-```
+Sample in under `data/processed` folder.
 
-## environments
+## Environments
 
 - python=3.10
 - tqdm=4.65.0
@@ -23,7 +14,7 @@ The Multi-modal Partialy-Spoofed dataset based on [FakeAVCeleb-V1.2](https://git
 - soundfile=0.12.1
 - librosa==0.10
 
-## usage
+## Usage
 
 In `datasetGenerate.py`, set the `PATH_DATA_ORI` as the original FakeAVCeleb path, and the `PATH_OUTPUT` as the required output path.
 
@@ -33,6 +24,17 @@ Run `datasetGenerate.py`.
 
 The final ratio fake will be higher than the `RATIO_FAKE`, which can be check by the text file named `counted_ratio_<real fake ratio>.txt`.
 
+## Citation
+
+*多模态部分伪造数据集的构建与基准检测* (*Construction and benchmark of multimodal partial forgery
+deepfake dataset*). Paper accepted. 
+
+Author:郑盛有, 陈雁翔, 赵祖兴, 刘海洋.
+
+DOI:10. 11772/j.issn.1001-9081.2023101506. 
+
+Further details will be added after publication.
+
 ## License
 
-code is released under the MIT license.
+Code is released under the MIT license.
