@@ -31,10 +31,10 @@
 《多模态部分伪造数据集的构建与基准检测》(《Construction and benchmark of multimodal partial forgery
 deepfake dataset》).
 
-论文已录用, 尚未发表.
-
 作者:郑盛有, 陈雁翔, 赵祖兴, 刘海洋.
 
-DOI:10. 11772/j.issn.1001-9081.2023101506. 
+第四届中国媒体取证与安全大会, 南京, 2023.
 
-其他具体信息待发表后更新.
+![证书](https://github.com/charnameRed/avpartialspoof/assets/54922651/2df38ccd-82d1-4071-ba1b-40f05a78ebc0)
+
+DOI:10. 11772/j.issn.1001-9081.2023101506. 
